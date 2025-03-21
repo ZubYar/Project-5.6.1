@@ -125,7 +125,7 @@ class Program
         {
             for (int i = 0; i < User.Pets.Length; i++)
             {
-                Console.WriteLine("Ваш питомец {0}: {1}", i + 1, User.Pets[i]);
+                Console.WriteLine("Имя вашего питомца {0}: {1}", i + 1, User.Pets[i]);
             }
         }
 
